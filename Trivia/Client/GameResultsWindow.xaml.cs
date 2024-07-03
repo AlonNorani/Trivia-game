@@ -55,11 +55,8 @@ namespace Client
                 {
                     if (gameResults.isWinner) // show video
                     {
-                        WinnerVideo.Source = new Uri("clideo_editor_dfc44eb92d1d4cb6b200f59ff31969e8.mp4", UriKind.Relative);
-                        video.Visibility = Visibility.Visible;
                         win1.Visibility = Visibility.Visible;
                         win2.Visibility = Visibility.Visible;
-                        WinnerVideo.Play();
                     }
                 });
             }

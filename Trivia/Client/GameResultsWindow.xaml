@@ -43,10 +43,7 @@ CornerRadius="5">
             </ScrollViewer>
         </Border>
 
-        <!-- Video StackPanel -->
-        <StackPanel x:Name="video" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Bottom" Visibility="Collapsed">
-            <MediaElement x:Name="WinnerVideo" Width="400" Height="300" LoadedBehavior="Manual" Margin="0 0"/>
-        </StackPanel>
+
         <TextBlock x:Name="win1" Text="YOU WIN!!!" FontStyle="Italic" FontSize="25" Foreground="Gold" HorizontalAlignment="Left" Margin="50 30" Visibility="Collapsed"/>
         <TextBlock x:Name="win2" Text="YOU WIN!!!" FontStyle="Italic" FontSize="25" Foreground="Gold" HorizontalAlignment="Right" Margin="50 30" Visibility="Collapsed"/>
 
